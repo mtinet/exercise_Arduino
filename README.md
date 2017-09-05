@@ -13,10 +13,10 @@ Arduino Gemma 보드 USB드라이버
 2 - 디지털입출력, 아날로그입력  
 ![](https://github.com/mtinet/exercise_Arduino/blob/master/gemma/gemma.png?raw=true)
  
-- Arduino Gemma를 테스트 해보기 위한 예제는 다음과 같다.
+- Arduino Gemma를 테스트 해보기 위한 예제는 다음과 같다.  
 [Blink_Gemma.ino](https://github.com/mtinet/exercise_Arduino/blob/master/gemma/Blink_Gemma.ino)
 
-```cs
+```cpp
 int led = 1;
 
 void setup() {
