@@ -13,9 +13,26 @@ Arduino Gemma 보드 USB드라이버
 2 - 디지털입출력, 아날로그입력  
 ![](https://github.com/mtinet/exercise_Arduino/blob/master/gemma/gemma.png?raw=true)
  
+[Blink_Gemma.ino](https://github.com/mtinet/exercise_Arduino/blob/master/gemma/Blink_Gemma.ino)
+
+```cpp
+code block
+
+int led = 1;
+
+void setup() {
+  pinMode(led, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(led, HIGH);
+  delay(10);              
+  digitalWrite(led, LOW); 
+  delay(500);             
+}
+```
+
 - 자세한 내용은 [https://learn.adafruit.com/introducing-gemma/](https://learn.adafruit.com/introducing-gemma/) 에서 확인이 가능하다.
-
-
 
 ---
 ## Arduino Examples
